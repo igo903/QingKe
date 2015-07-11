@@ -9,7 +9,7 @@
     <meta name="description" content="轻课, iOS, 移动端开发学习, Android, Ruby, Rails, HTML5, JavaScript, Bootstrap">
     <meta name="author" content="">
 
-    <title>轻客</title>
+    <title>轻课</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,12 +42,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">轻课</a>
+                <!-- <a class="navbar-brand" href="index.html">轻课</a> -->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="搜索你喜欢的轻课 / iOS / Android / HTML5 / JavaScript">
+                    </div>
+                    <button type="submit" class="btn btn-default">提交</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-left">
                     <li>
                         <a href="index.html">首页</a>
                     </li>
@@ -67,6 +75,9 @@
         <!-- /.container -->
     </nav>
 
+
+
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
@@ -83,6 +94,8 @@
         </div>
     </header>
 
+
+
     <!-- Main Content -->
     <div class="container">
         <div class="row">
@@ -96,30 +109,13 @@
                             iOS的APP中打开网页有两种方法，一种是使用内置手机浏览器打开，第二种是使用UIWebView。通常来说第二种方法更好，因为第二种方法打开的网页还在我们的APP之内，而第一种方法用户已经离开了我们的APP进入了手机浏览器。这堂课我们来聊一下UIWebView。
                         </h3>
                     </a>
-                    <p class="post-meta">轻课大师<a href="javascript:;">李彦强</a>2015-06-29</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            NavigationController - 隐藏navigation item
-                        </h2>
-                        <h3 class="post-subtitle">
-                            这段视频主要讲述的内容是如何使用代码动态实现隐藏NavigationController自带的navigation item。演示的内容是隐藏rootviewcontroller的navigation item，显示第二个页面的navigation item.
-                        </h3>
-                    </a>
-                    <p class="post-meta">轻课大师<a href="javascript:;">李彦强</a>2015-06-29</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            NavigationController - StoryBoard中使用NavigationController
-                        </h2>
-                        <h3 class="post-subtitle">
-                            这段1分钟的视频演示了如何在StoryBoard中使用NavigationController. 操作步骤是：选中第一个View，在菜单中选"Editor"->"Embed In"->"Navigation Controller". 这是使用NavigationController的第一步，请看其他的轻课学习更多Navigation Controller相关的内容。
-                        </h3>
-                    </a>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="搜索">
+                        </div>
+                        <button type="submit" class="btn btn-default">提交</button>
+                    </form>
+                    <p class="tags"></p>
                     <p class="post-meta">轻课大师<a href="javascript:;">李彦强</a>2015-06-29</p>
                 </div>
                 <hr>
