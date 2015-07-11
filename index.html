@@ -52,7 +52,7 @@
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="搜索你喜欢的轻课 / iOS / Android / HTML5 / JavaScript">
                     </div>
-                    <button type="submit" class="btn btn-default">提交</button>
+                    <!-- <button type="submit" class="btn btn-default">提交</button> -->
                 </form>
 
                 <ul class="nav navbar-nav navbar-left">
@@ -60,13 +60,10 @@
                         <a href="index.html">首页</a>
                     </li>
                     <li>
-                        <a href="about.html">关于我们</a>
+                        <a href="about.html">上传轻课</a>
                     </li>
                     <li>
-                        <a href="post.html">详情页</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">联系我们</a>
+                        <a href="post.html">关于我们</a>
                     </li>
                 </ul>
             </div>
@@ -99,7 +96,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-md-9" role="main">
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
@@ -109,25 +106,60 @@
                             iOS的APP中打开网页有两种方法，一种是使用内置手机浏览器打开，第二种是使用UIWebView。通常来说第二种方法更好，因为第二种方法打开的网页还在我们的APP之内，而第一种方法用户已经离开了我们的APP进入了手机浏览器。这堂课我们来聊一下UIWebView。
                         </h3>
                     </a>
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="搜索">
-                        </div>
-                        <button type="submit" class="btn btn-default">提交</button>
-                    </form>
-                    <p class="tags"></p>
-                    <p class="post-meta">轻课大师<a href="javascript:;">李彦强</a>2015-06-29</p>
+                    <div class="post-tags">
+                        <span class="label label-info"><a href="javascript:;">iOS</a></span>
+                        <span class="label label-info"><a href="javascript:;">Swift</a></span>
+                    </div>
+                    <p class="post-meta">大神<a href="javascript:;">李彦强</a>2015-06-29</p>
                 </div>
                 <hr>
-                
                 <!-- Pager -->
-                <ul class="pager">
+                <!-- <ul class="pager">
                     <li class="next">
                         <a href="#">下一页 &rarr;</a>
                     </li>
-                </ul>
+                </ul> -->
+            </div>
+            <div class="col-md-3" role="complementary">
+                <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
+                    <ul class="nav bs-docs-sidenav">
+                        <li>
+                          <a href="#glyphicons">iOS</a>
+                          <ul class="nav">
+                            <li><a href="#glyphicons-glyphs">Swift</a></li>
+                            <li><a href="#glyphicons-how-to-use">Object-C</a></li>
+                            <li><a href="#glyphicons-examples">StoryBoard</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#dropdowns">HTML5</a>
+                          <ul class="nav">
+                            <li><a href="#dropdowns-example">Example</a></li>
+                            <li><a href="#dropdowns-alignment">Alignment</a></li>
+                            <li><a href="#dropdowns-headers">Headers</a></li>
+                            <li><a href="#dropdowns-divider">Divider</a></li>
+                            <li><a href="#dropdowns-disabled">Disabled menu items</a></li>
+                          </ul>
+                        </li>          
+                     </ul>        
+                </nav>
             </div>
         </div>
+
+
+        <!-- Pagination -->
+        <nav class="pagination-wrapper">
+            <ul class="pagination ">
+              <li class="disabled"><a href="#">«</a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+        </nav>
+
     </div>
 
     <hr>

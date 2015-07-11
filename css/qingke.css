@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 14px;
   color: #404040;
 }
 p {
@@ -70,9 +70,6 @@ hr.small {
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
-  .navbar-custom .form-control {
-    width: 810px;
-  }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
@@ -128,6 +125,11 @@ hr.small {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+}
+.pagination-wrapper {
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
 }
 .intro-header {
   background-color: #808080;
@@ -206,6 +208,13 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
+}
+.post-preview .post-tags {
+  margin-bottom: 10px;
+}
+.post-preview .post-tags .label a {
+  color: #fff;
+  font-size: 12px;
 }
 .post-preview > a {
   color: #404040;

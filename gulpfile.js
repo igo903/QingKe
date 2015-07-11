@@ -33,6 +33,7 @@ var LessPluginCleanCSS = require('less-plugin-clean-css'),
 
 gulp.task('less', function() {
   return gulp.src('./less/q*.less')
+  	//.pipe(watchLess('./less/q*.less'))
   	.pipe(less())
     .pipe(gulp.dest('./css'))
     .pipe(rename({suffix: '.min'}))

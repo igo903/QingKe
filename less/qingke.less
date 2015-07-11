@@ -5,7 +5,7 @@
 
 body {
 	.serif;
-	font-size: 20px;
+	font-size: 14px;
 	color: @gray-dark;
 }
 
@@ -90,7 +90,7 @@ hr.small {
 			}
 		}
 		.form-control{
-			width: 810px;
+			//width: 810px;
 		}
 
 		.nav {
@@ -156,6 +156,12 @@ hr.small {
 		}
 	}
 }
+
+
+.pagination-wrapper{
+	text-align: center;border-radius: 3px;margin-bottom: 20px;
+}
+
 
 // Header
 
@@ -234,6 +240,16 @@ hr.small {
 // Post Preview Pages
 
 .post-preview {
+
+	
+	.post-tags{
+		margin-bottom: 10px;
+		.label a{
+			color:#fff;
+			font-size: 12px;
+		}
+	}
+
 	> a {
 		color: @gray-dark;
 		&:hover,
